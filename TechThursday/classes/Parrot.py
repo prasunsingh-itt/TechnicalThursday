@@ -1,7 +1,7 @@
 from ParentBirdClass import Bird
 
 
-# child class
+# child class (Inheritance)
 class Parrot(Bird):
 
     def __init__(self):
@@ -9,6 +9,8 @@ class Parrot(Bird):
         # --super().__init__()
         print("Parrot is ready")
 
+    
+    #Overiding
     def whoisThis(self):
         print("Parrot")
 
@@ -21,7 +23,9 @@ class Parrot(Bird):
     def swim(self):
         print("Parrot can't swim")
 
-peter = Parrot()
-peter.whoisThis()
-peter.swim()
-peter.run()
+# if __name__ == '__main__':
+#     print(__name__)
+#     peter = Parrot()
+#     peter.whoisThis()
+#     peter.swim()
+#     peter.run()
