@@ -10,6 +10,9 @@ class MultiDerived(Base1, Base2):
     pass
 
 
+
+
+
 #Diamond Problem
 #https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Diamond_inheritance.svg/220px-Diamond_inheritance.svg.png
 

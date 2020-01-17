@@ -11,6 +11,10 @@ class Avenger(Bike):
     def print_gear(self):
         print(self.gearbox)
 
+#Is a --> Inheritance
+#Has a --> Property
+
+
 
 a = Avenger()
 a.print_gear()
