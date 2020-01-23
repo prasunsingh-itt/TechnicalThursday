@@ -6,11 +6,11 @@ class Bike(Person):
     def getName(self):
         print("Bike:")
 
-    def gearUp(self,currentSpeed,personname):
+    def gearUp(self,currentSpeed):
         print("Current speed is :",int(currentSpeed))
         print("Speed after gearup : ",int(currentSpeed)+int(10)," kmph")
 
-    def gearDown(self,currentSpeed,personname):
+    def gearDown(self,currentSpeed):
         print("Current speed is :",int(currentSpeed))
         print("Speed after geardown : ",int(currentSpeed)-int(10)," kmph")
 
