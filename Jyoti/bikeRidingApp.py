@@ -4,7 +4,7 @@ class Person:
 
 class Bike(Person):
     def getName(self):
-        print("Bike")
+        print("Bike:")
 
     def gearUp(self,currentSpeed,personname):
         print("Current speed is :",int(currentSpeed))
