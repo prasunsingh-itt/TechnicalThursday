@@ -1,5 +1,7 @@
 class Calculator:
     def addition(self,value1,value2):
+        self.__total=100
+        
         return value1+value2
 
     def substraction(self,value1,value2):
@@ -25,11 +27,11 @@ class Calculator:
             print('Invalid operation')
         return result
 
+
 print('Enter choose operation')
 print('1. Addition\n2. Substraction\n3. Multiplication\n4. Division\n')
 operation=int(input(""))
 value1=int(input("Enter first value\n"))
 value2=int(input("Enter second value\n"))
 calculator= Calculator()
-
-print "Result is: ",calculator.calculate(operation,value1,value2)
+print("Result is: ",calculator.calculate(operation,value1,value2))
