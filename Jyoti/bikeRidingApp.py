@@ -8,7 +8,7 @@ class Bike():
         print("Current speed is :",int(currentSpeed))
         print("Speed after gearup : ",int(currentSpeed)+int(10)," kmph")
 
-    def gearDown(self,currentSpeed,super):
+    def gearDown(self,currentSpeed):
         print("Current speed is :",int(currentSpeed))
         print("Speed after geardown : ",int(currentSpeed)-int(10)," kmph")
 
