@@ -8,6 +8,7 @@ class Bike():
             self.Gear += 1
             print("You are in gear",self.Gear)
         else:
+            print("You are in gear",self.Gear)
             print("Gear box todega kya!!!")
 
     def GearDown(self):
@@ -15,6 +16,7 @@ class Bike():
             self.Gear -= 1
             print("You are in gear",self.Gear)
         else:
+            print("You are in gear",self.Gear)
             print("Ab kya neutral se neeche jaega!!!")
 
 
