@@ -1,4 +1,4 @@
-from parentbike import Bike
+from bike import Bike
 
 class Duke(Bike):
 
