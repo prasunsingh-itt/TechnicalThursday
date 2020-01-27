@@ -9,6 +9,7 @@ print("Available bikes for ride are \n 1. Yamaha 2. Kawasaki")
 bikeType = input("Please choose bike for riding: ")
 
 while int(bikeType) != 1 and int(bikeType) != 2:
+    print("You have selected invalid option...!!")
     bikeType = input("Please choose bike for riding: ")
 
 bike = None
