@@ -39,5 +39,5 @@ while choice!= None:
       elif choice == 'DOWN':
         range.speeddown()
       else:
-        print(ch,ch != None)
+        print(choice,choice != None)
         choice = None
