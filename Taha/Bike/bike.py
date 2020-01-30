@@ -10,7 +10,7 @@ class Bike():
         print('Speed = '+ str(self.__speed) + '\nGear = '+str(self.__gear)+'\n')
     
     def speedup(self):
-        if (self.__gear < 6):
+        if (self.__gear < 6 or self.__speed < 140):
             print ('Speed Increased')
             self.__speed = self.__speed + 20
             self.__gear = self.__gear + 1
@@ -19,7 +19,7 @@ class Bike():
             print("Max Gear!!!!!!!!!!!!!!!! \nCannot change gear")
 
     def speeddown(self):
-        if (self.__gear > 1):
+        if (self.__gear > 1 or self.__speed < 0):
             print ('Speed Decreased')
             self.__speed = self.__speed - 20
             self.__gear = self.__gear - 1
