@@ -14,8 +14,4 @@ class Yamaha(Vehicle):
         self.engine_type= 'air-cooled'
         print("Specification are:\nColour: " +self.colour +"\nGear: "+str(self.gears) + "\nEngine: "+ self.engine_type)
 
-
 a = Yamaha()
-
-
-
