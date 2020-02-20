@@ -3,12 +3,15 @@ from bike import Bike
 class Duke(Bike):
 
     def __init__(self):
-        self.Type = "Bike"
+        self.__Type = "Bike"
         print ("Bike is Duke")
         print("Duke is ready to go for a ride")
+        self.bike = Bike()
+        self.__gear = 0
+        self.__speed = 0
 
-    def bike_start(self):
-        super().bike_start()
+    def start(self):
+        super().start()
 
     def speedup(self):
         super().speedup()
@@ -16,8 +19,12 @@ class Duke(Bike):
     def speeddown(self):
         super().speeddown()
 
+    def stop(self):
+        super().stop()
+
 if __name__ == "__main__":
-    a = Duke()
-    a.bike_start()
-    a.speedup()
-    a.speeddown()
+    duke = Duke()
+    duke.start()
+    duke.speedup()
+    duke.speeddown()
+    duke.stop()
