@@ -5,8 +5,12 @@ PATH = "E:\Prasun\Python\TechnicalThursday"   # Give your path here
 
 
 
-fileCount = 0
-dirCount = 0
+fileCount , dirCount = 0, 0
+
+
+# a, b  = 10 , 20
+
+# print(a,b)
 
 for root, dirs, files in os.walk(PATH):
     print('Looking in:',root)
@@ -20,4 +24,7 @@ print('Number of Directories',dirCount)
 print('Total:',(dirCount + fileCount))
 
 
-#Modify this Program to ignore the git directories and count only files of type .txt
+#Modify this Program to ignore the git directories and count only files of type .txt and py
+
+
+

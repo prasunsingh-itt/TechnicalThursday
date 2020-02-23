@@ -21,8 +21,8 @@ with open(filename, 'a') as file:
 
 
 
-# os.remove(filename)
+os.remove(filename)
 
-# os.rmdir(path)
+os.rmdir(path)
 
 

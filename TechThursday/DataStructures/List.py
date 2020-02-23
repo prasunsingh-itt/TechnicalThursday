@@ -10,7 +10,7 @@ myList = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 print('Original List:',myList)
 print('First Element:',myList[0]) #Prints the first element of the list or 0th element of the list
 print('Element at 2nd Index position:',myList[2]) #Prints the 2nd element of the list
-print('Elements from 0th Index to 4th Index:',myList[0: 5]) #Prints elements of the list from 0th index to 4th index. IT DOESN'T INCLUDE THE LAST INDEX
+print('Elements from 0th Index to 4th Index:',myList[-9: -5]) #Prints elements of the list from 0th index to 4th index. IT DOESN'T INCLUDE THE LAST INDEX
 print('Element at -7th Index:',myList[-7]) #Prints the -7th or 3rd element of the list
 
 #To append an element to a list

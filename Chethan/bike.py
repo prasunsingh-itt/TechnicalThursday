@@ -23,3 +23,10 @@ c=a.speedup()
 print(a.description())
 d=a.speeddown()
 print(a.description())
+
+
+#Speed can go negative or Postive infinity
+#Divide it into proper files.
+#Rider is missing
+#Gear should be there.
+#Object name could be more clear
