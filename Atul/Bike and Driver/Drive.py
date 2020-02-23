@@ -1,11 +1,6 @@
 from Person import Person
 from Bike import Bike
 
-class Drive(Person, Bike):
-
-    def __init__(self):
-        super().__init__()
-
 person = Person()
 bike = Bike()
 person.turnOnBike()
