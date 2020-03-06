@@ -12,3 +12,4 @@ for i in range(n+1):
 print ("Total Sum : " + str(total_sum))
 print ("Even Sum : " + str(even_sum))
 print ("Odd Sum : " + str(odd_sum))
+

@@ -9,19 +9,22 @@ class Aprilla(Bike):
         print ("Bike is Aprilla")
         print("Aprilla is ready to go for a ride")
 
-    def bike_start(self):
+    def start(self):
         self.__speed = 10
         print('Speed = '+ str(self.__speed) + '\n')
 
     def speedup(self):
-        print ('Speed Increased')
-        self.__speed = self.__speed+20
-        print('Speed = '+ str(self.__speed) + '\n')
+        if (self.__speed < 140):
+            print ('Speed Increased')
+            self.__speed = self.__speed+20
+            print('Speed = '+ str(self.__speed) + '\n')
+
 
     def speeddown(self):
-        print ('Speed Decreased')
-        self.__speed = self.__speed-20
-        print('Speed = '+ str(self.__speed) + '\n')
+        if (self.__speed < 0):
+            print ('Speed Decreased')
+            self.__speed = self.__speed-20
+            print('Speed = '+ str(self.__speed) + '\n')
 
 if __name__ == "__main__":
     a = Aprilla()
