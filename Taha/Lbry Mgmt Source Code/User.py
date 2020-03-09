@@ -10,5 +10,5 @@ class User:
 
 if __name__ == "__main__":
     user = User(0,'abc')
-    user.SearchBook()
-    user.RaiseRequest()
+    user.SearchBook('abc')
+    user.RaiseRequest('xyz')
