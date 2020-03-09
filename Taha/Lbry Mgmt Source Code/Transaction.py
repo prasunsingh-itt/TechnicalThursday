@@ -1,5 +1,5 @@
 class Transaction:
-    def __init__(self):
+    def __init__(self,issueDate,returnDate,bookId,studentId,librarianId):
         super().__init__()
         self.issueDate = issueDate
         self.returnDate = returnDate
@@ -8,7 +8,8 @@ class Transaction:
         self.librarianId = librarianId
 
     def LogTransaction(self):
+        pass
 
 if __name__ == "__main__":
-    transaction = Transaction()
+    transaction = Transaction('23-03-2020','',1,1,1)
     transaction.LogTransaction()    
