@@ -9,6 +9,6 @@ class User:
         pass
 
 if __name__ == "__main__":
-    user = User()
+    user = User(0,'abc')
     user.SearchBook()
     user.RaiseRequest()
