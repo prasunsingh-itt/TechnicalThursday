@@ -1,11 +1,11 @@
 class Bike:
     def __init__(self):
-        self.Gear = 0
+        self.__Gear = 0
         print('This is Bike Class')
 
     def GearUp(self):
-        if self.Gear + 1 < 6 :
-            self.Gear = self.Gear + 1
+        if self.__Gear + 1 < 6 :
+            self.__Gear = self.__Gear + 1
         else:
             print('Already in TOP GEAR')
 
@@ -16,7 +16,7 @@ class Bike:
         print('Bike is OFF')
 
     def GearDown(self):
-        if self.Gear > 0:
-            self.Gear = self.Gear - 1
+        if self.__Gear > 0:
+            self.__Gear = self.__Gear - 1
         else:
             print('Already in BOTTOM GEAR')
