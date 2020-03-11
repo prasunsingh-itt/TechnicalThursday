@@ -1,5 +1,5 @@
 class Book():
-
+    
     def __init__(self,ISBN,name,author,publisher,price,quantity):
         self.ISBN = ISBN
         self.name = name

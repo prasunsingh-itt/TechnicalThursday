@@ -4,22 +4,22 @@ class Librarian:
         self.id=id
 
    
-    def AddBook(self):
+    def AddBook():
         pass        
     
-    def AddUSer(self):
+    def AddUSer():
         pass
 
-    def DeleteUser(self):
+    def DeleteUser():
         pass
 
-    def DeleteBook(self):
+    def DeleteBook():
         pass
 
-    def IssueBook(self):
+    def IssueBook():
         pass
 
-    def GenerateFine(self):
+    def GenerateFine():
         pass
        
 

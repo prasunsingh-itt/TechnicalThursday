@@ -8,11 +8,11 @@ class Student:
         self.email
         self.noOfBooks
 
-    def Borrow_Book(self):
+    def Borrow_Book():
         pass
 
-    def Return_Book(self):
+    def Return_Book():
         pass
 
-    def Pay_Fine(self):
+    def Pay_Fine():
         pass
